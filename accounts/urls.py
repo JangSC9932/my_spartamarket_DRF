@@ -5,5 +5,5 @@ urlpatterns = [
     # 회원가입
     path('', views.AccountsAPIView.as_view()),
     path('login/', TokenObtainPairView.as_view()),
-    path('<str:username>/', views.ProfileAPIView.as_view()),
+    path('<str:username>/', views.AccountsAPIView.as_view()),
 ]
