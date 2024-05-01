@@ -47,4 +47,12 @@
 ![스크린샷 2024-05-01 오후 10 56 08](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/11c3c185-b86b-4c3e-adc0-4c8a4a5f312c)
 #### 예시) 작성자 정보와 로그인 정보 일치
 ![스크린샷 2024-05-01 오후 10 57 24](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/9dd624aa-d460-4362-aeea-1e954ae96fa7)
+## 4) 상품 삭제
+#### Endpoint: /api/products/<int:product_id>
+#### Method: DELETE
+#### 조건: 로그인 필요, 작성자 정보와 로그인 정보 일치
+#### 예시) 작성자 정보와 로그인 정보 불일치
+![스크린샷 2024-05-01 오후 11 01 11](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/9bd8e37a-5c8b-4a2f-ac0e-94103fa41b4c)
+#### 예시) 작성자 정보와 로그인 정보 일치
+![스크린샷 2024-05-01 오후 11 01 33](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/775b8c38-26b4-45cd-b9e6-634e5a9c2853)
 
