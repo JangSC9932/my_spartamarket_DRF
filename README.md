@@ -9,3 +9,17 @@
 ![스크린샷 2024-05-01 오후 10 04 28](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/d62f13bd-2556-4243-a6e6-0dc877ce846f)
 #### 예시
 ![스크린샷 2024-05-01 오후 10 14 50](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/a7f28514-db0c-4acc-bb31-5481407c0303)
+## 2) 로그인
+#### Endpoint: /api/accounts/login/
+#### Method: POST
+#### 요청필드
+![스크린샷 2024-05-01 오후 10 45 09](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/f6716ea7-e106-46b7-9a1c-1bbc950c1b9a)
+#### 예시
+![스크린샷 2024-05-01 오후 10 45 38](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/0c13ee45-bdc5-44cf-84b4-589526218ad9)
+## 3) 프로필 조회
+#### Endpoint: /api/accounts/<str:username>
+#### Method: GET
+#### 조건 : 로그인 필요
+#### 예시
+![스크린샷 2024-05-01 오후 10 47 19](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/7261dde6-a013-464b-9e4c-ba14f408cffe)
+![스크린샷 2024-05-01 오후 10 47 29](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/853b60d0-e97b-4a41-bf05-43f208f4d450)
