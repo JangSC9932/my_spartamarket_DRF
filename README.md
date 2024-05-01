@@ -37,5 +37,14 @@
 #### Method: GET
 #### 예시
 ![스크린샷 2024-05-01 오후 10 51 45](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/a91a9f96-1339-4f25-8339-41eb8c8f6ccc)
-
+## 3) 상품 수정
+#### Endpoint: /api/products/<int:product_id>
+#### Method: PUT
+#### 조건: 로그인 필요, 작성자 정보와 로그인 정보 일치
+#### 요청필드
+![스크린샷 2024-05-01 오후 10 55 47](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/5eed4d11-ca72-4a26-b2dd-4e26d7e0f7c0)
+#### 예시) 작성자 정보와 로그인 정보 불일치
+![스크린샷 2024-05-01 오후 10 56 08](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/11c3c185-b86b-4c3e-adc0-4c8a4a5f312c)
+#### 예시) 작성자 정보와 로그인 정보 일치
+![스크린샷 2024-05-01 오후 10 57 24](https://github.com/JangSC9932/my_spartamarket_DRF/assets/60863619/9dd624aa-d460-4362-aeea-1e954ae96fa7)
 
